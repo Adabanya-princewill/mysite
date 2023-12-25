@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button } from "@material-tailwind/react";
+import { NavBar } from "./components/NavBar";
+import './index.css'
+import ShuffleHero from "./components/ShuffleHero";
+import { BouncyCardsFeatures } from "./components/BouncyCardsFeatures";
+import HoverDevCards from "./components/HoverDevCards";
+import { SimpleRegistrationForm } from "./components/SimpleRegistrationForm";
+import { FooterWithSitemap } from "./components/FooterWithSitemap";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App max-w-screen-xl mx-auto">
+      <div className="feature-section">
+        <NavBar />
+        <ShuffleHero />
+      </div>
+      <HoverDevCards />
+      <BouncyCardsFeatures />
+      <SimpleRegistrationForm />
+      <FooterWithSitemap />
     </div>
   );
 }
