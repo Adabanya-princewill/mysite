@@ -14,14 +14,14 @@ export const BouncyCardsFeatures = () => {
             </div>
             <div className="mb-4 grid grid-cols-12 gap-4">
                 <BounceCard className="id-4 col-span-12 md:col-span-4 bg-gray-200">
-                    <a href="https://countrymanager.netlify.app/" target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-red-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+                    <a rel="noreferrer" href="https://countrymanager.netlify.app/" target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-red-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
                         <span className="block text-center font-semibold text-indigo-50">
                         Click to view
                         </span>
                     </a>
                 </BounceCard>
                 <BounceCard className="id-2 col-span-12 md:col-span-8 bg-gray-200">
-                    <a href="https://yellowdots-4906d.web.app/home" target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-amber-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+                    <a rel="noreferrer" href="https://yellowdots-4906d.web.app/home" target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-amber-400 to-orange-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
                         <span className="block text-center font-semibold text-orange-50">
                             Click to view
                         </span>
@@ -30,7 +30,7 @@ export const BouncyCardsFeatures = () => {
             </div>
             <div className="grid grid-cols-12 gap-4">
                 <BounceCard className="id-1 col-span-12 md:col-span-8 bg-gray-200">
-                    <a href='https://japaanow.com/' target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-green-400 to-emerald-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+                    <a rel="noreferrer" href='https://japaanow.com/' target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-green-400 to-emerald-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
                         <span className="block text-center font-semibold text-emerald-50">
                             Click to view
                         </span>
@@ -38,7 +38,7 @@ export const BouncyCardsFeatures = () => {
                 </BounceCard>
                 <BounceCard className="id-3 col-span-12 md:col-span-4 bg-gray-200">
                    
-                    <a href="https://www.cyberfleetng.com/" target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-pink-400 to-red-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+                    <a rel="noreferrer" href="https://www.cyberfleetng.com/" target="_blank" className="absolute bottom-0 left-4 right-4 top-32 translate-y-8 rounded-t-2xl bg-gradient-to-br from-pink-400 to-red-400 p-4 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
                         <span className="block text-center font-semibold text-red-50">
                         Click to view
                         </span>
@@ -57,11 +57,5 @@ const BounceCard = ({ className, children }) => {
         >
             {children}
         </motion.div>
-    );
-};
-
-const CardTitle = ({ children }) => {
-    return (
-        <h3 className="mx-auto text-center text-3xl font-semibold">{children}</h3>
     );
 };

@@ -1,4 +1,3 @@
-import { Button } from "@material-tailwind/react";
 import { NavBar } from "./components/NavBar";
 import './index.css'
 import ShuffleHero from "./components/ShuffleHero";

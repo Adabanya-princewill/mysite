@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { FiMousePointer } from "react-icons/fi";
+import React from "react";
+import { motion, useMotionValue, useTransform } from "framer-motion";
 
 const Example = () => {
     return (
