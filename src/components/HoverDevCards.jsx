@@ -74,7 +74,7 @@ const TiltCard = () => {
                         transformStyle: "preserve-3d",
                     }}
                     class="p-2 absolute inset-4 rounded-xl bg-white flex flex-col items-center">
-                    <img alt="" class="object-cover object-center w-36 h-36 block" src={imageSrc} />
+                    <img alt="" class="z-0 object-cover object-center w-36 h-36 block" src={imageSrc} />
 
                     <div class="lg:mb-8">
                         <h3
