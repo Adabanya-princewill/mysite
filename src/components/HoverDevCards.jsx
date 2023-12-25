@@ -73,15 +73,15 @@ const TiltCard = () => {
                         transform: "translateZ(75px)",
                         transformStyle: "preserve-3d",
                     }}
-                    class="p-2 absolute inset-4 rounded-xl bg-white flex flex-col items-center">
-                    <img alt="" class="z-0 object-cover object-center w-36 h-36 block" src={imageSrc} />
+                    className="p-2 absolute inset-4 rounded-xl bg-white flex flex-col items-center">
+                    <img alt="" className="z-0 object-cover object-center w-36 h-36 block" src={imageSrc} />
 
-                    <div class="lg:mb-8">
+                    <div className="lg:mb-8">
                         <h3
                             style={{
                                 transform: "translateZ(50px)",
                             }}
-                            class="text-gray-500 text-center text-2xl font-bold tracking-widest title-font mb-1">{skill}</h3>
+                            className="text-gray-500 text-center text-2xl font-bold tracking-widest title-font mb-1">{skill}</h3>
                     </div>
                 </div>
             </motion.div>
