@@ -1,6 +1,7 @@
 import { Typography } from "@material-tailwind/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { IoIosCall } from "react-icons/io";
 
 export function FooterWithSitemap() {
     return (
@@ -10,12 +11,15 @@ export function FooterWithSitemap() {
                     <Typography
                         variant="small"
                         className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
-                    >
-                        &copy; 2020, All
-                        Rights Reserved.
+                    ><div> &copy; 2020, All
+                        Rights Reserved.</div>
+                        <div>919 Catawba St, Apt 536. Columbia 29201 SC.</div>
                     </Typography>
-                    <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
-                        <Typography as="a" target="_blank" href="mailto:adabanyaprince@gmail.com" className="opacity-80 transition-opacity hover:opacity-100">
+                    <div className="flex items-center gap-4 text-blue-gray-900 sm:justify-center">
+                        <Typography as="a" className="flex gap-4 cursor-pointer items-center opacity-80 transition-opacity hover:opacity-100">
+                            <IoIosCall /> 803 238 2083
+                        </Typography>
+                        <Typography as="a" target="_blank" href="mailto:nuelsmart27@gmail.com" className="opacity-80 transition-opacity hover:opacity-100">
                             <MdEmail />
                         </Typography>
                         <Typography as="a" target="_blank" href="https://github.com/Adabanya-princewill" className="opacity-80 transition-opacity hover:opacity-100">
