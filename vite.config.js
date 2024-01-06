@@ -5,7 +5,7 @@ export default {
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: '/src/index.jsx', // Adjust the path as needed
+      input: '/src/index.jsx', 
     },
   },
 };

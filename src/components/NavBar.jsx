@@ -83,6 +83,7 @@ console.log(window)
                 </svg>
                 <Typography
                     as="a"
+                    href=""
                     onClick={ScrollToTop}
                     variant="h6"
                     className="mr-4 cursor-pointer font-semibold py-1.5 tracking-widest"
