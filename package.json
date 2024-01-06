@@ -22,7 +22,7 @@
   "scripts": {
     "test": "react-scripts test",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "vite build"
   },
   "eslintConfig": {
     "extends": [
