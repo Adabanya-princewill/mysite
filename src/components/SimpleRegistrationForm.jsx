@@ -3,7 +3,7 @@ import { useState } from "react";
 export function SimpleRegistrationForm() {
 
     return (
-        <form className="text-gray-600 body-font relative my-8" id="contact" name="contact" method="POST" action="https://formsubmit.co/0e91ff95c33ab7ac6e8b47864f873c67">
+        <form netlify className="text-gray-600 body-font relative my-8" id="contact" name="contact">
              <input type="hidden" name="_subject" value="New Form submission!" />
                 <input type="hidden" name="_autoresponse" value="Thanks for reaching out to us, we will get back to you shortly." />
             <div className="absolute inset-0 bg-gray-300">
