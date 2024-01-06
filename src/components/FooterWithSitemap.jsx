@@ -19,14 +19,8 @@ export function FooterWithSitemap() {
                         <Typography as="a" className="flex gap-4 cursor-pointer items-center opacity-80 transition-opacity hover:opacity-100">
                             <IoIosCall /> 803 238 2083
                         </Typography>
-                        <Typography as="a" target="_blank" href="mailto:nuelsmart27@gmail.com" className="opacity-80 transition-opacity hover:opacity-100">
+                        <Typography as="a" target="_blank" href="mailto:elunoemmanuel@gmail.com" className="opacity-80 transition-opacity hover:opacity-100">
                             <MdEmail />
-                        </Typography>
-                        <Typography as="a" target="_blank" href="https://github.com/Adabanya-princewill" className="opacity-80 transition-opacity hover:opacity-100">
-                            <FaGithub />
-                        </Typography>
-                        <Typography as="a" target="_blank" href="https://www.linkedin.com/in/princewilladabanya/" className="opacity-80 transition-opacity hover:opacity-100">
-                            <FaLinkedin />
                         </Typography>
                     </div>
                 </div>
